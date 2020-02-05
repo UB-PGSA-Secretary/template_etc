@@ -35,11 +35,14 @@
 \usepackage{mathrsfs}
 \usepackage{amssymb}
 \usepackage{color}
+\usepackage{placeins}
 \usepackage{amsmath}
 \usepackage{enumerate}
+\usepackage{hyperref}
 \usepackage{braket}
 \usepackage{tabularx} %for automation of column widths so that the table spans the width defined by textwidth and linewidth
 \usepackage{subcaption}
+\usepackage{physics}
 \usepackage{cite}
 \usepackage{appendix}
 
@@ -94,6 +97,8 @@
 \field{Physics}
 \campus{Amherst}
 
+
+
 % For a masters thesis, replace the above \documentclass line with
 % \documentclass[masters]{ucbthesis}
 % This affects the title and approval pages, which by default calls this
@@ -124,6 +129,10 @@
 % \listoffigures
 % \clearpage
 % \listoftables
+\newpage
+\listoffigures
+\newpage
+\listoftables
 
 \include{abstract}
 
@@ -141,6 +150,10 @@
 \include{Chapter-5/chapter5}
 \include{Chapter-6/chapter6}
 \include{Appendix/appendix}
-\include{bibliography}
+
+%use no cite to cite resources that have been used but not may not have been explicitly refered to in the text
+\nocite{ref4}
+\bibliographystyle{plain}
+\bibliography{bib}
 
 \end{document}

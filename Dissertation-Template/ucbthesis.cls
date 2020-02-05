@@ -395,30 +395,42 @@
   \let\footnoterule\relax
   \thispagestyle{empty}
   \setcounter{page}{1}
-
+   
   \begin{center}
     \fmfont
-    \textbf{\@title}\par
-    \vspace{14pt minus 4pt}
-    \vspace{14pt minus 4pt}
-    \vspace{14pt minus 4pt}
-    by \par
-    \vspace{14pt minus 4pt}
-    \vspace{14pt minus 4pt}
-    {\@author} \par \vspace*{-4mm}
-    \@degreesemester \ \@degreeyear\par \par
+    \textbf{\Large \@title}\par
+  
+   
     \vspace{28pt minus 8pt}
-    A \@dissertation submitted to the \par \vspace*{-4mm} Faculty of the Graduate School of 
-    \par \vspace*{-4mm} the University at Buffalo, The State University of New York \par \vspace*{-4mm}
-    in partial fulfillment of the requirements for the \par \vspace*{-4mm} degree of
+    A thesis submitted \par \vspace*{-4mm} 
+      \vspace{14pt minus 4pt}
+    by \par
+      \vspace{14pt minus 4pt}
+    {\@author} \par \vspace*{-4mm}
+     \vspace{14pt minus 4pt}
+    to \par
+    \vspace{14pt minus 4pt}
+    \par \vspace*{-4mm}The Department of Physics 
+    \begin{figure}[h]
+    	\begin{center}
+    	 \includegraphics[width=75mm]{ub_logo.png}
+    	\end{center}
+    	
+    \end{figure}
+    \par  University at Buffalo 
+    \par\vspace*{-4mm} The State University of New York 
+    \par 
+    in partial fulfillment of the requirements 
+    \par \vspace*{-4mm}for the degree of
     
     \vspace{32pt minus 8pt}
     
     Doctor of Philosophy
     
     \vspace{32pt minus 8pt}
+    \@degreesemester \ \@degreeyear\par \par
     
-    Department of Physics
+   
 %     \ifdefined\@jointinst
 %       Joint {\@degree}\\with {\@jointinst}\par
 %     \else
