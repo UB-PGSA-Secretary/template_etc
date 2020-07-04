@@ -399,36 +399,27 @@
   \begin{center}
     \fmfont
     \textbf{\Large \@title}\par
-  
-   
-    \vspace{28pt minus 8pt}
-    A thesis submitted \par \vspace*{-4mm} 
-      \vspace{14pt minus 4pt}
+    
+    
+  \vspace{28pt minus 8pt}
     by \par
       \vspace{14pt minus 4pt}
-    {\@author} \par \vspace*{-4mm}
-     \vspace{14pt minus 4pt}
-    to \par
+    {\@author} \par \vspace*{-4mm}   
     \vspace{14pt minus 4pt}
-    \par \vspace*{-4mm}The Department of Physics 
-    \begin{figure}[h]
-    	\begin{center}
-    	 \includegraphics[width=75mm]{ub_logo.png}
-    	\end{center}
-    	
-    \end{figure}
-    \par  University at Buffalo 
-    \par\vspace*{-4mm} The State University of New York 
-    \par 
+    \@degreesemester \ \@degreeyear\par \par
+     \vspace{14pt minus 4pt}
+    A thesis submitted to the \par \vspace*{-4mm} 
+    faculty of the Graduate School of  \par \vspace*{-4mm} 
+    the University at Buffalo, The State University of New York \par \vspace*{-4mm} 
     in partial fulfillment of the requirements 
     \par \vspace*{-4mm}for the degree of
-    
     \vspace{32pt minus 8pt}
     
     Doctor of Philosophy
     
     \vspace{32pt minus 8pt}
-    \@degreesemester \ \@degreeyear\par \par
+    
+    Department of Physics \par \vspace*{-4mm} 
     
    
 %     \ifdefined\@jointinst
